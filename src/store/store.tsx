@@ -10,7 +10,7 @@ interface InitialState {
 }
 
 const initialState: InitialState = {
-  amount: '2500000',
+  amount: '25,000.00',
   goal: {
     month: new Date().getMonth(),
     year: new Date().getFullYear(),

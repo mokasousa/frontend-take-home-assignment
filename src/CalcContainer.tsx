@@ -4,15 +4,6 @@ import Calc from './components/Calc';
 import Result from './components/Result';
 import houseSavings from './icons/houseSavings.svg';
 
-// interface CurrencyMask {
-//   (value: string): string;
-// }
-
-// interface Iprops {
-//   currencyMask: CurrencyMask;
-//   months: [string];
-// }
-
 const CalcContainer: React.FunctionComponent = () => {
   const Container = styled.div`
     background: #ffffff;
